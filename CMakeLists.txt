@@ -19,7 +19,18 @@ set(MINHOOK_SOURCES
     minhook/src/hde/hde64.c
 )
 
+if(MSVC)
+    list(APPEND BEVADE_SOURCES src/dll_proxy.c)
+else()
+    list(APPEND BEVADE_SOURCES src/version.def)
+endif()
+
 add_library(BEvade SHARED ${BEVADE_SOURCES} ${MINHOOK_SOURCES})
+
+set_target_properties(BEvade PROPERTIES
+    OUTPUT_NAME "VERSION"
+    PREFIX ""
+)
 
 target_include_directories(BEvade PRIVATE
     minhook/include
