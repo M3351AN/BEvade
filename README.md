@@ -6,6 +6,16 @@ Evade Battleye for GTAOL Enhanced.
 
 Why FSL when you are not banned.
 
+## Usage
+
+1. -nobattleye or other any method disable battleye
+
+2. VERSION.dll, which our build, drag into GTA5_Enhanced.exe folder
+
+3. launch game
+
+4. to remove this, just delete VERSION.dll.
+
 ## Credits
 
 This project references:
