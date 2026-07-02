@@ -6,6 +6,14 @@ Evade Battleye for GTAOL Enhanced.
 
 Why FSL when you are not banned.
 
+## Feature
+
+- BSD3 license, non-infectious
+
+- C99, not C++.
+
+- MSVC build 19kb, MinGW build 38kb, Clang build 26kb, Release.
+
 ## Usage
 
 1. -nobattleye or other any method disable battleye
