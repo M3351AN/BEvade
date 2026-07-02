@@ -6,6 +6,8 @@ Evade Battleye for GTAOL Enhanced.
 
 Why FSL when you are not banned.
 
+Some P2C called this FSL(Save on Rockstar server), those stuff which doing sh1t like this, is not so called FSL, at all.
+
 ## Feature
 
 - BSD3 license, non-infectious
