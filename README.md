@@ -17,7 +17,7 @@ Some P2C called this FSL(Save on Rockstar server), those stuff which doing sh1t 
 
 - C99, not C++.
 
-- MSVC build 19kb, MinGW build 38kb, Clang build 26kb, Release.
+- MSVC build 19kb, MinGW build 38kb, Clang build 26kb, Release, -O2, before strip.
 
 ## Usage
 
